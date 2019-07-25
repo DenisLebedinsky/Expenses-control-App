@@ -1,6 +1,4 @@
-Expenses control App
-
-## Available Scripts
+## Expenses control App
 
 In the project directory, you can run:
 
@@ -26,12 +24,12 @@ The build is minified and the filenames include the hashes.<br>
 
 install docker and run command:
 
-### docker run
+### run with docker
 
 With docker-compose:
 
-## docker-compose up
+### `docker-compose up`
 
 Or plain Docker:
 
-## docker build -t react-app .
+### `docker build -t react-app .`
