@@ -1,7 +1,9 @@
 import React, { useState } from 'react';
-import Chart from "./components/Chart";
+import { BrowserRouter as Router, Route, Link } from "react-router-dom";
+import Chart from './components/Chart';
 import Form from './components/Form';
 import List from './components/List';
+import BarChart from './components/BarChart'
 
 const data = [
   {
@@ -54,10 +56,9 @@ function App() {
     setItems(newArr)
   }
 
-  return (
-    <div className="Container">
-      <h1 className="text-center">Flow chart</h1>
-      <Chart data={items} />
+
+  function Main() {
+    return (<div>
       <Form addItem={addItem} />
 
       <List
@@ -65,8 +66,42 @@ function App() {
         edit={editItem}
         del={deleteItem}
       />
+    </div>)
+  }
+
+  function Charts() {
+    return (
+    <div>
+    <Chart data={items} />
+    <BarChart data={items} />
     </div>
+    )
+  }
+
+
+
+  return (
+    <Router>
+      <div className='container'>
+        <nav>
+          <ul className="nav justify-content-center">
+            <li  className="nav-item">
+              <Link to="/" className="nav-link">Main</Link>
+            </li>
+            <li className="nav-item">
+              <Link to="/charts/" className="nav-link">Charts</Link>
+            </li>
+
+          </ul>
+        </nav>
+
+        <Route path="/" exact component={Main} />
+        <Route path="/charts/" component={Charts} />
+
+      </div>
+    </Router>
   );
 }
+
 
 export default App;

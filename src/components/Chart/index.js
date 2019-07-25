@@ -10,7 +10,7 @@ export default class Example extends PureComponent {
   render() {
     const { data } = this.props;
     return (
-      <div className='container d-flex justify-content-center mt-5'>
+      <div className='container d-flex justify-content-center mt-3'>
         <LineChart
           width={600}
           height={300}

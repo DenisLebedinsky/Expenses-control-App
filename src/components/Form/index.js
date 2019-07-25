@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 
-export default (addItem) => {
+export default ({ addItem }) => {
   const [expenses, setExpenses] = useState(0)
   const [incomes, setIncomes] = useState(0)
   const [name, setName] = useState('')
@@ -18,7 +18,7 @@ export default (addItem) => {
       <div className='row'>
         <form
           onSubmit={_addItem}
-          className="col-md-12 d-flex align-items-end mt-5 justify-content-center"
+          className="col-md-12 d-flex align-items-end mt-3 justify-content-center"
           data-testid='form_for_add'>
           <div className="form-group mr-1">
             <label >Item name</label>
@@ -26,7 +26,7 @@ export default (addItem) => {
               type="string"
               className="form-control"
               value={name}
-              onChange={setName}
+              onChange={e => setName(e.target.value)}
             />
           </div>
           <div className="form-group mr-1">
@@ -35,7 +35,7 @@ export default (addItem) => {
               type="number"
               className="form-control"
               value={expenses}
-              onChange={setExpenses}
+              onChange={e => setExpenses(e.target.value)}
             />
           </div>
           <div className="form-group mr-1">
@@ -44,7 +44,7 @@ export default (addItem) => {
               type="number"
               className="form-control"
               value={incomes}
-              onChange={setIncomes}
+              onChange={e => setIncomes(e.target.value)}
             />
           </div>
           <div className="form-group">
