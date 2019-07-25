@@ -1,0 +1,304 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`List test for render data 1`] = `
+<div
+  class="container"
+>
+  <div
+    class="row"
+  >
+    <form
+      class="col-md-12"
+      data-testid="list_of_items"
+    >
+      <div
+        class=" d-flex align-items-end justify-content-center"
+        data-testid="1"
+      >
+        <div
+          class="form-group mr-1"
+        >
+          <input
+            class="form-control"
+            type="string"
+            value="January"
+          />
+        </div>
+        <div
+          class="form-group mr-1"
+        >
+          <input
+            class="form-control"
+            type="number"
+            value="4000"
+          />
+        </div>
+        <div
+          class="form-group mr-1"
+        >
+          <input
+            class="form-control"
+            type="number"
+            value="2400"
+          />
+        </div>
+        <div
+          class="form-group"
+        >
+          <button
+            class="btn btn-outline-danger"
+          >
+            X
+          </button>
+        </div>
+      </div>
+      <div
+        class=" d-flex align-items-end justify-content-center"
+        data-testid="2"
+      >
+        <div
+          class="form-group mr-1"
+        >
+          <input
+            class="form-control"
+            type="string"
+            value="February"
+          />
+        </div>
+        <div
+          class="form-group mr-1"
+        >
+          <input
+            class="form-control"
+            type="number"
+            value="2222"
+          />
+        </div>
+        <div
+          class="form-group mr-1"
+        >
+          <input
+            class="form-control"
+            type="number"
+            value="1398"
+          />
+        </div>
+        <div
+          class="form-group"
+        >
+          <button
+            class="btn btn-outline-danger"
+          >
+            X
+          </button>
+        </div>
+      </div>
+      <div
+        class=" d-flex align-items-end justify-content-center"
+        data-testid="3"
+      >
+        <div
+          class="form-group mr-1"
+        >
+          <input
+            class="form-control"
+            type="string"
+            value="March"
+          />
+        </div>
+        <div
+          class="form-group mr-1"
+        >
+          <input
+            class="form-control"
+            type="number"
+            value="2000"
+          />
+        </div>
+        <div
+          class="form-group mr-1"
+        >
+          <input
+            class="form-control"
+            type="number"
+            value="9800"
+          />
+        </div>
+        <div
+          class="form-group"
+        >
+          <button
+            class="btn btn-outline-danger"
+          >
+            X
+          </button>
+        </div>
+      </div>
+      <div
+        class=" d-flex align-items-end justify-content-center"
+        data-testid="4"
+      >
+        <div
+          class="form-group mr-1"
+        >
+          <input
+            class="form-control"
+            type="string"
+            value="April"
+          />
+        </div>
+        <div
+          class="form-group mr-1"
+        >
+          <input
+            class="form-control"
+            type="number"
+            value="2780"
+          />
+        </div>
+        <div
+          class="form-group mr-1"
+        >
+          <input
+            class="form-control"
+            type="number"
+            value="3908"
+          />
+        </div>
+        <div
+          class="form-group"
+        >
+          <button
+            class="btn btn-outline-danger"
+          >
+            X
+          </button>
+        </div>
+      </div>
+      <div
+        class=" d-flex align-items-end justify-content-center"
+        data-testid="5"
+      >
+        <div
+          class="form-group mr-1"
+        >
+          <input
+            class="form-control"
+            type="string"
+            value="June"
+          />
+        </div>
+        <div
+          class="form-group mr-1"
+        >
+          <input
+            class="form-control"
+            type="number"
+            value="1890"
+          />
+        </div>
+        <div
+          class="form-group mr-1"
+        >
+          <input
+            class="form-control"
+            type="number"
+            value="4800"
+          />
+        </div>
+        <div
+          class="form-group"
+        >
+          <button
+            class="btn btn-outline-danger"
+          >
+            X
+          </button>
+        </div>
+      </div>
+      <div
+        class=" d-flex align-items-end justify-content-center"
+        data-testid="6"
+      >
+        <div
+          class="form-group mr-1"
+        >
+          <input
+            class="form-control"
+            type="string"
+            value="July"
+          />
+        </div>
+        <div
+          class="form-group mr-1"
+        >
+          <input
+            class="form-control"
+            type="number"
+            value="2390"
+          />
+        </div>
+        <div
+          class="form-group mr-1"
+        >
+          <input
+            class="form-control"
+            type="number"
+            value="3800"
+          />
+        </div>
+        <div
+          class="form-group"
+        >
+          <button
+            class="btn btn-outline-danger"
+          >
+            X
+          </button>
+        </div>
+      </div>
+      <div
+        class=" d-flex align-items-end justify-content-center"
+        data-testid="7"
+      >
+        <div
+          class="form-group mr-1"
+        >
+          <input
+            class="form-control"
+            type="string"
+            value="August"
+          />
+        </div>
+        <div
+          class="form-group mr-1"
+        >
+          <input
+            class="form-control"
+            type="number"
+            value="3490"
+          />
+        </div>
+        <div
+          class="form-group mr-1"
+        >
+          <input
+            class="form-control"
+            type="number"
+            value="4300"
+          />
+        </div>
+        <div
+          class="form-group"
+        >
+          <button
+            class="btn btn-outline-danger"
+          >
+            X
+          </button>
+        </div>
+      </div>
+    </form>
+  </div>
+</div>
+`;

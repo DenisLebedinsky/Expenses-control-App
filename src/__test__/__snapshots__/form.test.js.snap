@@ -1,0 +1,63 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Form test for render data 1`] = `
+<div
+  class="container"
+>
+  <div
+    class="row"
+  >
+    <form
+      class="col-md-12 d-flex align-items-end mt-5 justify-content-center"
+      data-testid="form_for_add"
+    >
+      <div
+        class="form-group mr-1"
+      >
+        <label>
+          Item name
+        </label>
+        <input
+          class="form-control"
+          type="string"
+          value=""
+        />
+      </div>
+      <div
+        class="form-group mr-1"
+      >
+        <label>
+          expenses
+        </label>
+        <input
+          class="form-control"
+          type="number"
+          value="0"
+        />
+      </div>
+      <div
+        class="form-group mr-1"
+      >
+        <label>
+          incomes
+        </label>
+        <input
+          class="form-control"
+          type="number"
+          value="0"
+        />
+      </div>
+      <div
+        class="form-group"
+      >
+        <button
+          class="btn btn-primary"
+          type="submit"
+        >
+          +
+        </button>
+      </div>
+    </form>
+  </div>
+</div>
+`;
