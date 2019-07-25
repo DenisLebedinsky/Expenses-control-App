@@ -29,6 +29,7 @@ export default ({ items, edit, del }) => {
                   className="form-control"
                   value={item.name}
                   onChange={(e) => editItem(item.id, 'name', e.target.value)}
+                  disabled
                 />
               </div>
               <div className="form-group mr-1">
@@ -38,6 +39,7 @@ export default ({ items, edit, del }) => {
                   className="form-control"
                   value={item.expenses}
                   onChange={(e) => editItem(item.id, 'expenses', e.target.value)}
+                  disabled
                 />
               </div>
               <div className="form-group mr-1">
@@ -47,6 +49,7 @@ export default ({ items, edit, del }) => {
                   className="form-control"
                   value={item.incomes}
                   onChange={(e) => editItem(item.id, 'incomes', e.target.value)}
+                  disabled
                 />
               </div>
 

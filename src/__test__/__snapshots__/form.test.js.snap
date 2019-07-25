@@ -8,7 +8,7 @@ exports[`Form test for render data 1`] = `
     class="row"
   >
     <form
-      class="col-md-12 d-flex align-items-end mt-5 justify-content-center"
+      class="col-md-12 d-flex align-items-end mt-3 justify-content-center"
       data-testid="form_for_add"
     >
       <div
