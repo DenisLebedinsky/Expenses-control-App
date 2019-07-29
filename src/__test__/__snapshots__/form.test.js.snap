@@ -19,6 +19,7 @@ exports[`Form test for render data 1`] = `
         </label>
         <input
           class="form-control"
+          data-testid="input_name"
           type="string"
           value=""
         />

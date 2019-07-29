@@ -19,7 +19,8 @@ export default ({ addItem }) => {
         <form
           onSubmit={_addItem}
           className="col-md-12 d-flex align-items-end mt-3 justify-content-center"
-          data-testid='form_for_add'>
+          data-testid='form_for_add'
+        >
           <div className="form-group mr-1">
             <label >Item name</label>
             <input
@@ -27,6 +28,7 @@ export default ({ addItem }) => {
               className="form-control"
               value={name}
               onChange={e => setName(e.target.value)}
+              data-testid='input_name'
             />
           </div>
           <div className="form-group mr-1">
