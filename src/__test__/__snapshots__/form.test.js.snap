@@ -32,6 +32,7 @@ exports[`Form test for render data 1`] = `
         </label>
         <input
           class="form-control"
+          data-testid="input_expenses"
           type="number"
           value="0"
         />
@@ -44,6 +45,7 @@ exports[`Form test for render data 1`] = `
         </label>
         <input
           class="form-control"
+          data-testid="input_incomes"
           type="number"
           value="0"
         />

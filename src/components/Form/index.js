@@ -38,6 +38,7 @@ export default ({ addItem }) => {
               className="form-control"
               value={expenses}
               onChange={e => setExpenses(e.target.value)}
+              data-testid='input_expenses'
             />
           </div>
           <div className="form-group mr-1">
@@ -47,6 +48,7 @@ export default ({ addItem }) => {
               className="form-control"
               value={incomes}
               onChange={e => setIncomes(e.target.value)}
+              data-testid='input_incomes'
             />
           </div>
           <div className="form-group">

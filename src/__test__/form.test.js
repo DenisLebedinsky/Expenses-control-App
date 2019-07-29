@@ -4,7 +4,7 @@ import {
   render,
   cleanup,
   waitForElement,
-  fireEvent
+  fireEvent,
 } from "@testing-library/react";
 
 describe("Form", () => {
@@ -15,21 +15,41 @@ describe("Form", () => {
 
     const { container, getByTestId } = render(<Form />);
 
-    const iputName = await waitForElement(() =>
+    await waitForElement(() =>
       getByTestId("form_for_add")
     );
 
-    //console.log(iputName)
     expect(container.firstChild).toMatchSnapshot();
   });
 
-  afterEach(cleanup);
+  const setup = () => {
+    const utils = render(<Form />)
+    const input = utils.getByTestId('input_name')
+    const input2 = utils.getByTestId('input_expenses')
+    const input3 = utils.getByTestId('input_incomes')
 
-  test('loads items eventually', async () => {
-    const { findByText, getByTestId } = render(<Form />)
+    return {
+      input,
+      input2,
+      input3,
+      ...utils,
+    }
+  }
 
-    fireEvent.change(getByTestId('input_name'), { target: { value: 'a' } })
+  afterEach(cleanup)
 
-    expect(findByText('a')).toBeTruthy()
+  test('test input method', () => {
+
+    const { input, input2, input3 } = setup()
+
+    fireEvent.change(input, { target: { value: 'test input_name' } })
+    expect(input.value).toBe('test input_name')
+
+    fireEvent.change(input2, { target: { value: '123' } })
+    expect(input2.value).toBe('123')
+
+    fireEvent.change(input3, { target: { value: '777' } })
+    expect(input3.value).toBe('777')
+
   })
 });
