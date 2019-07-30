@@ -4,7 +4,7 @@ import { DebounceInput } from "react-debounce-input";
 export default ({ items, edit, del }) => {
 
   const editItem = (id, type, value) => {
-
+	
     if (typeof edit === 'function') {
       edit(id, type, value)
     }

@@ -38,18 +38,16 @@ describe("Form", () => {
 
   afterEach(cleanup)
 
-  test('test input method', () => {
+  it("test input method", () => {
+    const { input, input2, input3 } = setup();
 
-    const { input, input2, input3 } = setup()
+    fireEvent.change(input, { target: { value: "test input_name" } });
+    expect(input.value).toBe("test input_name");
 
-    fireEvent.change(input, { target: { value: 'test input_name' } })
-    expect(input.value).toBe('test input_name')
+    fireEvent.change(input2, { target: { value: "123" } });
+    expect(input2.value).toBe("123");
 
-    fireEvent.change(input2, { target: { value: '123' } })
-    expect(input2.value).toBe('123')
-
-    fireEvent.change(input3, { target: { value: '777' } })
-    expect(input3.value).toBe('777')
-
-  })
+    fireEvent.change(input3, { target: { value: "777" } });
+    expect(input3.value).toBe("777");
+  });
 });
