@@ -34,6 +34,7 @@ export default ({ items, edit, del }) => {
                     value={item.name}
                     onChange={e => editItem(item.id, "name", e.target.value)}
                     debounceTimeout={3000}
+                    data-testid="input_edit"
                   />
                 </div>
                 <div className="form-group mr-1">
@@ -45,6 +46,7 @@ export default ({ items, edit, del }) => {
                       editItem(item.id, "expenses", e.target.value)
                     }
                     debounceTimeout={3000}
+                    data-testid="input_edit"
                   />
                 </div>
                 <div className="form-group mr-1">
@@ -56,6 +58,7 @@ export default ({ items, edit, del }) => {
                       editItem(item.id, "incomes", e.target.value)
                     }
                     debounceTimeout={3000}
+                    data-testid="input_edit"
                   />
                 </div>
 
@@ -63,6 +66,7 @@ export default ({ items, edit, del }) => {
                   <button
                     className="btn btn-outline-danger"
                     onClick={() => deleteItem(item.id)}
+                    data-testid="btn_del"
                   >
                     X
                   </button>

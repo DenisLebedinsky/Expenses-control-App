@@ -20,6 +20,7 @@ exports[`List test for render data 1`] = `
         >
           <input
             class="form-control"
+            data-testid="input_edit"
             type="string"
             value="January"
           />
@@ -29,6 +30,7 @@ exports[`List test for render data 1`] = `
         >
           <input
             class="form-control"
+            data-testid="input_edit"
             type="number"
             value="4000"
           />
@@ -38,6 +40,7 @@ exports[`List test for render data 1`] = `
         >
           <input
             class="form-control"
+            data-testid="input_edit"
             type="number"
             value="2400"
           />
@@ -47,6 +50,7 @@ exports[`List test for render data 1`] = `
         >
           <button
             class="btn btn-outline-danger"
+            data-testid="btn_del"
           >
             X
           </button>
@@ -61,6 +65,7 @@ exports[`List test for render data 1`] = `
         >
           <input
             class="form-control"
+            data-testid="input_edit"
             type="string"
             value="February"
           />
@@ -70,6 +75,7 @@ exports[`List test for render data 1`] = `
         >
           <input
             class="form-control"
+            data-testid="input_edit"
             type="number"
             value="2222"
           />
@@ -79,6 +85,7 @@ exports[`List test for render data 1`] = `
         >
           <input
             class="form-control"
+            data-testid="input_edit"
             type="number"
             value="1398"
           />
@@ -88,6 +95,7 @@ exports[`List test for render data 1`] = `
         >
           <button
             class="btn btn-outline-danger"
+            data-testid="btn_del"
           >
             X
           </button>
@@ -102,6 +110,7 @@ exports[`List test for render data 1`] = `
         >
           <input
             class="form-control"
+            data-testid="input_edit"
             type="string"
             value="March"
           />
@@ -111,6 +120,7 @@ exports[`List test for render data 1`] = `
         >
           <input
             class="form-control"
+            data-testid="input_edit"
             type="number"
             value="2000"
           />
@@ -120,6 +130,7 @@ exports[`List test for render data 1`] = `
         >
           <input
             class="form-control"
+            data-testid="input_edit"
             type="number"
             value="9800"
           />
@@ -129,6 +140,7 @@ exports[`List test for render data 1`] = `
         >
           <button
             class="btn btn-outline-danger"
+            data-testid="btn_del"
           >
             X
           </button>
@@ -143,6 +155,7 @@ exports[`List test for render data 1`] = `
         >
           <input
             class="form-control"
+            data-testid="input_edit"
             type="string"
             value="April"
           />
@@ -152,6 +165,7 @@ exports[`List test for render data 1`] = `
         >
           <input
             class="form-control"
+            data-testid="input_edit"
             type="number"
             value="2780"
           />
@@ -161,6 +175,7 @@ exports[`List test for render data 1`] = `
         >
           <input
             class="form-control"
+            data-testid="input_edit"
             type="number"
             value="3908"
           />
@@ -170,6 +185,7 @@ exports[`List test for render data 1`] = `
         >
           <button
             class="btn btn-outline-danger"
+            data-testid="btn_del"
           >
             X
           </button>
@@ -184,6 +200,7 @@ exports[`List test for render data 1`] = `
         >
           <input
             class="form-control"
+            data-testid="input_edit"
             type="string"
             value="June"
           />
@@ -193,6 +210,7 @@ exports[`List test for render data 1`] = `
         >
           <input
             class="form-control"
+            data-testid="input_edit"
             type="number"
             value="1890"
           />
@@ -202,6 +220,7 @@ exports[`List test for render data 1`] = `
         >
           <input
             class="form-control"
+            data-testid="input_edit"
             type="number"
             value="4800"
           />
@@ -211,6 +230,7 @@ exports[`List test for render data 1`] = `
         >
           <button
             class="btn btn-outline-danger"
+            data-testid="btn_del"
           >
             X
           </button>
@@ -225,6 +245,7 @@ exports[`List test for render data 1`] = `
         >
           <input
             class="form-control"
+            data-testid="input_edit"
             type="string"
             value="July"
           />
@@ -234,6 +255,7 @@ exports[`List test for render data 1`] = `
         >
           <input
             class="form-control"
+            data-testid="input_edit"
             type="number"
             value="2390"
           />
@@ -243,6 +265,7 @@ exports[`List test for render data 1`] = `
         >
           <input
             class="form-control"
+            data-testid="input_edit"
             type="number"
             value="3800"
           />
@@ -252,6 +275,7 @@ exports[`List test for render data 1`] = `
         >
           <button
             class="btn btn-outline-danger"
+            data-testid="btn_del"
           >
             X
           </button>
@@ -266,6 +290,7 @@ exports[`List test for render data 1`] = `
         >
           <input
             class="form-control"
+            data-testid="input_edit"
             type="string"
             value="August"
           />
@@ -275,6 +300,7 @@ exports[`List test for render data 1`] = `
         >
           <input
             class="form-control"
+            data-testid="input_edit"
             type="number"
             value="3490"
           />
@@ -284,6 +310,7 @@ exports[`List test for render data 1`] = `
         >
           <input
             class="form-control"
+            data-testid="input_edit"
             type="number"
             value="4300"
           />
@@ -293,6 +320,7 @@ exports[`List test for render data 1`] = `
         >
           <button
             class="btn btn-outline-danger"
+            data-testid="btn_del"
           >
             X
           </button>
